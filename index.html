@@ -15,21 +15,24 @@
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-</html>
 
-<body class="container">
-    <h1 class="title">
-        Color Game
+  <body class="container">
+    <h1 class="title" id="gameResult">
+      Color Game
     </h1>
     <div class="game">
-        <div class="game__colors" id="colorsId"></div>
-        <div class="game__grid">
-            <div class="game__grid--color" id="color-1"></div>
-            <div class="game__grid--color" id="color-2"></div>
-            <div class="game__grid--color" id="color-3"></div>
-            <div class="game__grid--color" id="color-4"></div>
-            <div class="game__grid--color" id="color-5"></div>
-            <div class="game__grid--color" id="color-6"></div>
-        </div>
+      <div class="game__colors" id="color">Color</div>
+      <div class="game__grid">
+        <div class="game__grid--color" id="color-0" style="background-color: rgb(50, 178, 58);"></div>
+        <div class="game__grid--color" id="color-1" style="background-color: rgb(50, 162, 58);"></div>
+        <div class="game__grid--color" id="color-2" style="background-color: rgb(50, 145, 58);"></div>
+        <div class="game__grid--color" id="color-3" style="background-color: rgb(57, 167, 98);"></div>
+        <div class="game__grid--color" id="color-4" style="background-color: rgb(50, 89, 58);"></div>
+        <div class="game__grid--color" id="color-5" style="background-color: rgb(50, 145, 58);"></div>
+      </div>
+      <div class="game__score" id="score"></div>
     </div>
-</body>
+    <!--JS-->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
